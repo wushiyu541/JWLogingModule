@@ -6,8 +6,12 @@
 //  Copyright © 2019 武世钰. All rights reserved.
 //
 
-import UIKit
+import Foundation
 
-class TestClass: NSObject {
-
+public class TestClass {
+    public init() {
+    }
+    public func logger(message: String) {
+        testF(message: message)
+    }
 }
