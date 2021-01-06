@@ -94,7 +94,7 @@ Pod::Spec.new do |spec|
   spec.exclude_files = "JWLogingModule/Classes/Exclude"
 #  spec.static_framework = true
   spec.public_header_files = "JWLogingModule/Classes/Public/Test.h"
-
+  spec.vendored_frameworks = "JWLogingModule/Frameworks/AnalyticFramework.framework"
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
