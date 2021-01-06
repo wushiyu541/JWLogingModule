@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "JWLogingModule"
-  spec.version      = "0.0.3"
+  spec.version      = "0.0.4"
   spec.summary      = "A loging module for test."
 
   # This description is used to generate tags and improve search results.
@@ -93,7 +93,7 @@ Pod::Spec.new do |spec|
   spec.source_files  = "JWLogingModule/Classes","JWLogingModule/Classes/**/*"
   spec.exclude_files = "JWLogingModule/Classes/Exclude"
 #  spec.static_framework = true
-#  spec.public_header_files = "JWLogingModule/Classes/Public/Test.h"
+  spec.public_header_files = "JWLogingModule/Classes/Public/Test.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
