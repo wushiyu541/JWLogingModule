@@ -350,7 +350,6 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/JWLogingModule",
-					"$(PROJECT_DIR)/JWLogingModule/Frameworks",
 				);
 				INFOPLIST_FILE = JWLogingModule/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -374,7 +373,6 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/JWLogingModule",
-					"$(PROJECT_DIR)/JWLogingModule/Frameworks",
 				);
 				INFOPLIST_FILE = JWLogingModule/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
